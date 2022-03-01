@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "npx openapi --input https://developer.atlassian.com/cloud/jira/platform/swagger-v3.v3.json --output ./generated --client axios --name JiraClient"
   },
   "author": "",
   "license": "ISC",
